@@ -7,14 +7,21 @@ Um pequeno Projeto Curso técnico em informática -Senac
 
 
 Site de Serviços de limpeza em geral.
--Site 2.0 https://maxswell-msd.github.io/Pizzaria-Kimassa/
+-Site 1.0 https://joaosenna51.github.io/CleanHouse/
 -💻 Trabalhando conceitos e suas aplicações Html5 e CSS3 nesse projeto finalizado em 17/08/2021
 
 Sites usado nesse projeto para captação de recursos:
+
+Fontes onde foram Retirado os textos:
+http://www.saosebastiao.sp.gov.br/noticia.asp?id=N912019163241
+https://housemaid-brasil.com.br/
+https://www.cindapa.com.br/depoimentos/
+http://www.febrac.org.br/v1/index.php/comunicacao/noticias/782-abralimp-lanca-campanha-que-reforca-a-importancia-dos-profissionais-de-limpeza-profissional-no-combate-ao-coronavirus
+
 Google Fontes para formatação do texto: https://fonts.google.com/
-Fontes para captação de ícones: https://cdnjs.com/libraries/font-awesome
-Aplicando tema do Favicon na aba do site gerando vários formatos : https://favicon.io/
-Escolhendo fontes de cores gradients :https://uigradients.com/
-Eu sei que existe sites para fazer Wireframe mas já estava fazendo em outro
-Ferramenta usada nesse projeto foi o Canva indicado para criação de Folhetos, cartões de visitas além de baixar em PDF:https://www.canva.com/
-Indicação de sites para fazer Wireframe Moqups:https://app.moqups.com/
+Fontes para captação de ícones: https://icon-icons.com/pt/icones/busca/?filtro=limpeza
+Escolhendo fontes de cores :https://www.rapidtables.org/pt/web/color/RGB_Color.html
+existem sites para fazer Wireframe mas já estava fazendo em outro
+
+A Ferramenta usada nesse projeto foi o Figma indicado para criação de Projetos, cartões de visitas e Banners, além de baixar em JPG :https://www.figma.com/
+Indicação de sites para fazer Wireframe Moqups:https://www.figma.com/  | https://www.canva.com/
