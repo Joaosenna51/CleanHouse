@@ -1,0 +1,769 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(black)
+  );
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+header {
+  background-image: url("../img/banner07.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: #432303;
+  font-family: "Abril Fatface";
+  height: 600px;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+header h1 {
+  padding-left: 250px;
+  padding-top: 420px;
+}
+header nav {
+  width: 70%;
+  margin-left: 350px;
+  margin-right: auto;
+  margin-top: -45px;
+  text-align: center;
+  /* background-color: red; */
+}
+
+header #menu,
+header nav #fechar {
+  display: none;
+}
+
+header nav li {
+  list-style: none;
+}
+
+header nav ul li {
+  /* background-color: rgb(255, 255, 255); */
+  display: inline-block;
+  padding: 20px 50px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-size: 10pt;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+/* header nav ul li:hover {
+  /* background-color: rgb(24, 102, 133); */
+
+header nav ul li:hover > a {
+  color: #432303;
+}
+
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #fff;
+  font-family: "Abril Fatface", cursive;
+}
+
+/* main #painel {
+  height: 400px;
+  /* background-image: url("../img/banner5.png"); */
+/* background-size: 100%;
+  background-position: 0px -150px;
+} */
+*/
+
+
+
+/* main #painel ul li:hover > a {
+  background-color: rgb(24, 102, 133);
+}
+
+main #painel ul li a {
+  color: chartreuse;
+  font-size: 10pt;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+  transition: ease 0.5s;
+  margin-left: 295px;
+  margin-right: -190px;
+} */
+
+footer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  /* background-color: #1d3e4e; */
+  font-family: "Cormorant Garamond", serif;
+  font-size: 10pt;
+  padding: 200px;
+  /* margin-bottom: 20px; */
+}
+
+footer #redes,
+footer #end {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: rgb(0, 0, 0);
+  position: top;
+  background-color: silver;
+  padding: 0px;
+}
+
+footer #end {
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 50px;
+  color: rgb(0, 0, 0);
+  margin-top: -5px;
+}
+
+footer #redes ul {
+  list-style: none;
+  margin-top: -50px;
+}
+
+footer #redes ul li {
+  display: inline-block;
+}
+
+footer #redes ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+footer #redes ul li a i {
+  font-size: 20px;
+  color: rgb(78, 74, 94);
+  margin: 30px;
+}
+
+main h3 {
+  margin-left: 70px;
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+}
+
+main #faixahome1 {
+  padding: 30px 100px;
+  background-color: #fff;
+}
+
+main #faixahome1 div {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15pt;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: justify;
+  color: #000;
+}
+
+main #faixahome1 h2 {
+  font-family: "Cormorant Garamond", serif;
+  margin: 10px;
+  color: #000;
+}
+
+main #faixahome2 h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40pt;
+}
+
+main #faixahome2 {
+  margin: 20px;
+  font-family: arial;
+}
+
+main #home div {
+  font-family: arial;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+main #faixahome2 {
+  background-color: #fff;
+  padding: 10px;
+  margin: 40px;
+}
+
+main #faixahome2 {
+  text-align: center;
+  font-size: 10pt;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+main #faixahome2 #clientes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+main #faixahome2 #clientes div {
+  margin: 10px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+main #faixahome2 #clientes div img {
+  width: 100%;
+}
+
+main #faixahome3 {
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+main #faixahome3 h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30pt;
+}
+
+main #faixahome3 div iframe {
+  width: 100%;
+  height: 400px;
+}
+
+main #servicos h3,
+main #cozinha h3,
+main #quarto h3,
+main #banheiro h3,
+main #jantar h3 {
+  font-size: 30pt;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0px;
+  color: rgba(0, 0, 0, 80%);
+  background-color: #fff;
+  margin-left: 0px;
+}
+
+main #servicos h2,
+main #cozinha h2,
+main #quarto h2,
+main #banheiro h2,
+main #jantar h2 {
+  font-size: 50pt;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #fff;
+}
+main #miniatura div {
+  color: #000;
+  text-justify: auto;
+  font-family: "Poppins";
+  font-size: 10t;
+}
+
+main #servicos div {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 90%;
+  font-weight: 700;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; /*comando de quebra de linha */
+  margin-bottom: 8px;
+  background-color: #fff;
+  margin: absolute;
+}
+
+main #servicos div img {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 30%;
+  height: auto;
+  opacity: 0.8;
+  cursor: pointer; /* mouse no formato de mão */
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+main #servicos div img:hover {
+  opacity: 1;
+}
+
+main #cozinha #conteudo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+main #cozinha #destaque {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+main #cozinha #destaque img {
+  width: 100%;
+  height: auto;
+}
+
+main #cozinha #miniatura {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+main #cozinha #miniatura img {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 32%;
+  height: auto;
+  margin: 2px;
+}
+
+main #quarto div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: silver;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+main #quarto div img {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 48%;
+  height: auto;
+  /* realizar o efeito de inclinação na imagem */
+  -webkit-transform: skew(3deg);
+  -ms-transform: skew(3deg);
+  transform: skew(3deg);
+  margin: 2px;
+}
+main #quarto div img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  transform: skewX(0deg);
+  z-index: 1000;
+}
+
+main #banheiro #area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 1px dotted silver;
+}
+
+main #banheiro #area div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 10px #666;
+  box-shadow: 5px 5px 10px #666;
+  text-align: center;
+  padding: 40px 0px 100px 0px;
+  margin: 5px;
+}
+
+main #banheiro #area div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+main #jantar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+main #jantar div img {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 20%;
+}
+
+main form {
+  width: 40%;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+main form input,
+main form textarea {
+  width: 90%;
+  padding: 10px;
+  display: auto;
+  margin: 5px;
+}
+
+main form textarea {
+  height: 200px;
+}
+
+main form input[type="submit"] {
+  width: 15%;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* -------------  Break points para o projeto --------------- */
+
+/* para telas de Smartphones */
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+  header {
+    height: 300px;
+    padding-top: 60px;
+  }
+  header h1 {
+    padding-left: 80px;
+    padding-top: 172px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  /* main #painel {
+    height: 250px;
+    background-position: 0 -70px;
+  } */
+
+  header nav {
+    background-color: #000;
+    height: 100vh; /* V(view-port) H (height- altura) - 100% da altura da tela do dispositivo que abre */
+    position: fixed;
+    /*  Fazer a barra 'iniciar' no topo do navegador,
+    e do lado de fora a esquerda do navegador   */
+    top: 0;
+    margin-left: 0px;
+    width: 250px;
+    text-align: left;
+    margin-top: 0px;
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+    z-index: 10000;
+  }
+
+  header nav ul li {
+    background-color: black;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  header nav ul li a {
+    color: #fff;
+  }
+  header #menu,
+  header nav #fechar {
+    display: block;
+  }
+
+  header #menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+
+  header nav #fechar {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  /* formatação para a pagina home */
+  main #faixahome1 div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  main #faixahome1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  main {
+    background-image: url("../img/painel.jpg") !important;
+    background-size: 150% !important;
+    background-position: center center;
+  }
+
+  /* formatação para a pasta projetos */
+
+  main #servicos,
+  main #cozinha,
+  main #quarto,
+  main #banheiro,
+  main #jantar {
+    background-color: #fff;
+  }
+
+  main #servicos div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  main #servicos div img {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 60%;
+    height: auto;
+    opacity: 0.8;
+    margin: 5px;
+  }
+}
+
+/* para telas de tablets */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    height: 300px;
+  }
+  header h1 {
+    padding: 131px;
+    text-align: center;
+    margin-left: -250px;
+  }
+  /* main #painel {
+    height: 250px;
+    background-position: 0 -10px;
+  } */
+  header nav {
+    background-color: #000;
+    height: 100vh; /* V(view-port) H (height- altura) - 100% da altura da tela do dispositivo que abre */
+    position: fixed;
+    /*  Fazer a barra 'iniciar' no topo do navegador,
+    e do lado de fora a esquerda do navegador   */
+    top: 0;
+    margin-left: -0px;
+    margin-top: -5px;
+    width: 200px;
+    text-align: left;
+    padding-top: 2px;
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+
+  header nav ul li {
+    background-color: black;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  header nav ul li a {
+    color: #fff;
+  }
+  header #menu,
+  header nav #fechar {
+    display: block;
+  }
+
+  header #menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+
+  header nav #fechar {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  main {
+    background-image: url("../img/painel.jpg") !important;
+    background-size: 150% !important;
+    background-position: center center;
+  }
+
+  main #faixahome1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main #faixahome1 div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main form {
+    width: 80%;
+  }
+
+  main form input[type="submit"] {
+  }
+}
+
+/* para telas de desktop */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header nav {
+    width: 70%;
+    margin-left: 310px;
+    margin-right: auto;
+    margin-top: 270px;
+    text-align: center;
+    /* background-color: red; */
+  }
+
+  main #faixahome1 div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  main #faixahome1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+main #faixahome2 #clientes div {
+  width: 40%;
+  text-align: center;
+}
+
+main #faixahome2 #clientes div img {
+  width: 250px;
+}
+
+.ajustePhome {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* formatação da tela de projetos */
+main #cozinha #destaque {
+  -webkit-box-flex: 1.5;
+  -ms-flex: 1.5;
+  flex: 1.5;
+}
+main form {
+  width: 80%;
+}
